@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box; 
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+h1{
+	margin-left:500px;
+	font-family:system-ui;
+}
+
+
+div{
+	font-family: Georgia, serif;;
+}
+
+p{
+	font-family: Georgia, serif;
+}
+
+#pt1{
+	background-color: dimgrey;
+	padding: 5px;
+	border: 3px solid black;
+	margin: 30px;
+	width: 250px;
+	float: left;	
+	position: relative;
+	position: bottom;
+	
+
+}
+#pt12{
+	background-color: peachpuff;
+	position:relative;
+	font-family: ;
+	position: right;
+	float: right;
+	bottom: 20px;
+	left:5px;
+	clear: both;
+
+}
+
+#pt2{
+	background-color: dimgrey;
+	padding: 5px;
+	border: 3px solid black;
+	margin: 30px;
+	width: 250px;
+	float: left;
+	
+}
+
+#pt123{
+	background-color: orangered;
+	position:relative;
+	font-family: ;
+	position: right;
+	float: right;
+	bottom: 20px;
+	left:5px;
+}
+
+#pt3{
+	background-color: dimgrey;
+	padding: 5px;
+	border: 3px solid black;
+	margin: 30px;
+	width: 250px;
+	float: left;
+
+}
+
+#pt1234{
+	background-color: mediumslateblue;
+	position:relative;
+	font-family: ;
+	position: right;
+	float: right;
+	bottom: 20px;
+	left:5px;
+}
+
+@media (min-width: 992px){
+
+	#pt1{
+		width: 250px;
+	}
+
+
+	#pt2{
+		width: 250px;
+
+	}
+
+	#pt3{
+		width: 250px;
+
+	}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	#pt1{
+		height: 130px;
+
+	}
+
+	#pt2{
+		height: 130px;
+	}
+
+
+
+
+	#pt3{
+		width: 550px;
+		height: 130px;
+	}
+}
+
+@media (max-width: <767px)
